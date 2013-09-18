@@ -37,124 +37,126 @@ header h1
 	float: left;
 	padding: 3px 15px;
 	font-family: 'Quattrocento';
-
+}
+.rowspacer
+{
+	display: table-row;
 }
 #intro 
 {
 	background: #e6e2af;
-	height: 100%;
-	min-height: 680px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 #intro #me
 {
-	display:block;
-	margin:auto;
-	padding-top: 120px;
+	padding-bottom: 25px;
 }
-#intro #arrow
+/*#intro #arrow
 {
 	float: right;
 	margin-top: -150px;
 	margin-right: 100px;
-}
+}*/
 #intro p
 {
-	text-align: center;
 	font-family: 'Lily Script One';
 	font-size: 48px;
 	color: #193441;
-	margin-top: 40px;
-	padding-bottom: 50px;
 }
+
 #about
 {
 	background: #193441;
-	height: 100%;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.paraspacer
+{
+	padding-top: 120px;
 }
 #about p
 {
-	text-align: center;
-	vertical-align: middle;
 	font-family: 'Quattrocento';
 	font-size: 40px;
 	color: #e6e2af;
-	padding-top: 120px;
-}
-#about #topabout
-{
-	padding-top: 200px;
 }
 #mytwobites
 {
 	background: #e6e2af;
-	height: 100%;
+	display: table-cell;
+	/*text-align: center;*/
+	vertical-align: middle;
 }
-/*#mytwobites h2
+#mytwobites h2
 {
 	font-family: 'Lily Script One';
 	font-size: 40px;
 	color: #193441;
+	padding-bottom: 50px;
+
 }
 #mytwobites p
 {
 	font-family: 'Quattrocento';
 	font-size: 24px;
 	color: #193441;
-}*/
-/*#mytwobitesdesc
-{
-	width: 30%;
+	width: 50%;
 	text-align: left;
-}*/
+}
 /*#mytwobitescontent
 {
-	display:table-cell;
-	vertical-align: middle;
-	text-align: center;
-	/*margin-left: 300px;
-	padding-top: 200px;*/
-/*}*/
-/*#mytwobitescontent h2
-{
-	padding-bottom: 50px;
+	margin-left: 300px;
+	padding-top: 200px;
 }
+*/
 #mytwobitesimg 
 {
-	margin-top: -300px;
-	margin-left: 650px;
-}*/
+	margin-top: -250px;
+	float: right;
+	/*margin-left: 60%;*/
+}
 #bingads
 {
 	background: #193441;
-	height: 100%;
+	display: table-cell;
+	vertical-align: middle;	
 }
 #bingads h2
 {
 	font-family: 'Lily Script One';
 	font-size: 40px;
 	color: #e6e2af;
+	padding-bottom: 50px;
+	text-align: right;
 }
 #bingads p
 {
 	font-family: 'Quattrocento';
 	font-size: 24px;
 	color: #e6e2af;
+	text-align: right;
+	width: 50%;
+	margin-left: 50%;
 }
-#bingadscontent
+/*#bingadscontent
 {
 	margin-top: -285px;
 	text-align: right;
 	width: 25%;
 	margin-left: 650px;
-	/*padding-top: 350px;*/
-}
-#bingadscontent h2
+	padding-top: 350px;
+}*/
+/*#bingadscontent h2
 {
 	padding-bottom: 50px;
-	/*text-align: right;*/
-}
+	text-align: right;
+}*/
 #bingadsimg 
 {
-	margin-left: 300px;
-	margin-top: 200px;
+	/*margin-left: 300px;*/
+	margin-top: -250px;
+	float: left;
 }
