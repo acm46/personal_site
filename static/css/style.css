@@ -83,48 +83,45 @@ header h1
 	font-size: 40px;
 	color: #e6e2af;
 }
-#mytwobites
+.projectdesc
+{
+	width:70%;
+	margin:0 auto;
+}
+.oddproject
 {
 	background: #e6e2af;
 	display: table-cell;
-	/*text-align: center;*/
 	vertical-align: middle;
 }
-#mytwobites h2
+.oddproject h2
 {
 	font-family: 'Lily Script One';
 	font-size: 40px;
 	color: #193441;
 	padding-bottom: 50px;
-
 }
-#mytwobites p
+.oddproject p
 {
 	font-family: 'Quattrocento';
 	font-size: 24px;
 	color: #193441;
-	width: 50%;
+	width: 300px;
 	text-align: left;
+	float: left;
 }
-/*#mytwobitescontent
+.oddprojectimg 
 {
-	margin-left: 300px;
-	padding-top: 200px;
-}
-*/
-#mytwobitesimg 
-{
-	margin-top: -250px;
+	margin-top: -100px;
 	float: right;
-	/*margin-left: 60%;*/
 }
-#bingads
+.evenproject
 {
 	background: #193441;
 	display: table-cell;
 	vertical-align: middle;	
 }
-#bingads h2
+.evenproject h2
 {
 	font-family: 'Lily Script One';
 	font-size: 40px;
@@ -132,31 +129,17 @@ header h1
 	padding-bottom: 50px;
 	text-align: right;
 }
-#bingads p
+.evenproject p
 {
 	font-family: 'Quattrocento';
 	font-size: 24px;
 	color: #e6e2af;
 	text-align: right;
-	width: 50%;
-	margin-left: 50%;
+	width: 300px;
+	float:right;
 }
-/*#bingadscontent
+.evenprojectimg 
 {
-	margin-top: -285px;
-	text-align: right;
-	width: 25%;
-	margin-left: 650px;
-	padding-top: 350px;
-}*/
-/*#bingadscontent h2
-{
-	padding-bottom: 50px;
-	text-align: right;
-}*/
-#bingadsimg 
-{
-	/*margin-left: 300px;*/
-	margin-top: -250px;
+	margin-top: -100px;
 	float: left;
 }
