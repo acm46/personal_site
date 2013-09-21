@@ -3,9 +3,14 @@ TODO
 - add remaining projects
 - test on ffox, IE, and Safari
 - check whether it looks good for all computer sizes
-
+- links to project pages
+- make navbar link active depending on section
+- add "scroll down" button between first two sections
 
 - make it responsive for mobile/tablets
+
+- performance/page loads/caching
+
 
 KNOWN BUGS
 
