@@ -4,4 +4,9 @@ TODO
 - test on ffox, IE, and Safari
 - check whether it looks good for all computer sizes
 
+
 - make it responsive for mobile/tablets
+
+KNOWN BUGS
+
+- padding on top of first picture

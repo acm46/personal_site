@@ -4,6 +4,8 @@
 	<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
 	<title>Ani Mohan</title>
 	<link rel="stylesheet" type="text/css" href="/static/css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap-responsive.min.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css" media="screen"/>
 	<link href='http://fonts.googleapis.com/css?family=Lily+Script+One|Quattrocento:400,700' rel='stylesheet' type='text/css'>
 
@@ -11,11 +13,12 @@
 	<script src="/static/js/respond.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="/static/js/prefixfree.min.js"></script>
+	<script src="/static/js/bootstrap.min.js"></script>
 	<script src="/static/js/jquery.smooth-scroll.min.js"></script>
 	<script src="/static/js/script.js"></script>
 </head>
 <body>
-	<div id="topbar">
+<!-- 	<div id="topbar">
 		<header>
 			<h1><a href="#topbar">Ani Mohan</a></h1>
 			<nav id="works">
@@ -28,33 +31,89 @@
 				</ul>
 			</nav>
 		</header>
+	</div> -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				 </button>
+      			<a class="brand" id="myname" href="#intro">Ani Mohan</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav pull-right" id="works">
+						<li><a href="#mytwobites">myTwoBites</a></li>
+						<li><a href="#bingads">bing Ads</a></li>
+						<li><a href="#virtualtag">VirtualTag</a></li>
+						<li><a href="#peoplecounter">People Counter</a></li>
+						<li><a href="#nbawins">Predicting NBA Wins</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
 	</div>
-  	<div class="rowspacer">
-		<section id="intro">
-				<img id="me" src="/static/img/me.png" />
-	<!-- 			<a href="#about"><img id="arrow" src="/static/img/arrow_button.png" /></a> -->
-				<p>Hi. I'm Ani Mohan.</p>
-		</section>
-	</div>
-  	<div class="rowspacer">
+  		<div class="row-fluid">
+			<section id="intro">
+			<div class="span12">
+					<img id="me" src="/static/img/me.png" />
+
+		<!-- 			<a href="#about"><img id="arrow" src="/static/img/arrow_button.png" /></a> -->
+					<p>Hi. I'm Ani Mohan.</p>
+			</div>
+			</section>
+		</div>
+	<div class="row-fluid">
+	  	<div class="span12">
 		<section class="newsect" id="about">
-			<p><em>I'm a senior at Duke University.</em></p>
-			<p class="paraspacer"><em>I've worked at Dropbox and Microsoft.</em></p>
-			<p class="paraspacer"><em>Here are some things I've made.</em></p>
-		</section>
-	</div>
-	<div class="rowspacer">
-		<section class="newsect oddproject" id="mytwobites">
-		<div class="projectdesc">
-			<h2>myTwoBites</h2>
-			<p><em>
-			Web application to enable pregnant women to track nutritional intake and eat healthier. Designed, built (Ruby on Rails), and deployed application to users.
-			</em></p>
-			<img class="oddprojectimg" src="/static/img/mytwobites.png" />
+			<p>I'm a senior at Duke University.</p>
+			<p class="paraspacer">I've worked at Dropbox and Microsoft.</p>
+			<p class="paraspacer">Here are some things I've made.</p>
 		</section>
 		</div>
 	</div>
-	<div class="rowspacer">
+	<div class="row-fluid">
+	<section class="newsect oddproject" id="mytwobites">
+		<div class="span8 offset2">
+			<div class="projectdesc">
+				<h2>myTwoBites</h2>
+			</div>
+			<div class="projectimg">
+				<img class="oddprojectimg" src="/static/img/mytwobites.png"/>
+			</div>
+			<div class="projectdesc">
+				<p>
+				Web application to enable pregnant women to track nutritional intake and eat healthier. Designed, built (Ruby on Rails), and deployed application to users.
+				</p>
+			</div>
+		</div>
+		</section>
+	</div>
+
+	<div class="row-fluid">
+	<section class="newsect evenproject" id="bingads">
+		<div class="span8 offset2">
+			<div class="projectdesc">
+				<h2>bing Ads</h2>
+			</div>
+			<div class="projectimg">
+				<img class="evenprojectimg" src="/static/img/bingads.png" />
+			</div>
+			<div class="projectdesc">
+				<p>
+					Microsoft-internal application allowing adWords advertisers to create bing Ads accounts. Designed, built, and personally demoed to Qi Lu, President of bing.
+				</p>
+			</div>
+		</div>
+		</section>
+	</div>
+
+
+
+
+
+<!-- 	<div class="rowspacer">
 		<section class="newsect evenproject" id="bingads">
 		<div class="projectdesc">
 			<h2>bing Ads</h2>
@@ -64,7 +123,9 @@
 			<img class="evenprojectimg" src="/static/img/bingads.png" />
 		</div>
 		</section>
-	</div>
+	</div> -->
+
+
 	<div class="rowspacer">
 		<section class="newsect oddproject" id="virtualtag">
 		<div class="projectdesc">
